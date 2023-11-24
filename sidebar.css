@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper {
+    height: 100%;
+    width: 330px;
+    position: relative;
+    margin-top: 130px;
+}
+.wrapper #sidebar {
+    position: fixed;
+    height: 100%;
+    width: 270px;
+    background-image: url(likod2.jpg);
+    overflow: hidden;
+}
+#sidebar .title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    background: rgb(1, 1, 54);
+    text-align: center;
+}
+#sidebar  .list.items{
+    position: relative;
+    background: #404040;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    overflow: auto;
+}
+#sidebar .list-items li {
+    padding-left: 40px;
+    line-height: 50px;
+    border-top: 1px solid rgba(225, 225, 225, 0.1);
+    border-bottom: 1px solid #333;
+    transition: all 0.3s ease;
+}
+#sidebar .list-items li:hover{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 10px 3px #222;
+}
+#sidebar .list-items li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+#sidebar .list-items li a i{
+    margin-right: 20px;
+}
+.main-content {
+    width: 80vw;
+    margin-left: 20vw;
+}
+section {
+    height: 200vh;
+    color: white;
+    padding: 30px;
+    padding-top: 150px;
+  
+    
+}  
